@@ -6,9 +6,6 @@ Write a function that produces output according to a format.
     Prototype: int _printf(const char *format, ...);
 
  1. Education is when you read the fine print. Experience is what you get if you don't
-Handle the following conversion specifiers:
-
-    d
-    i
+Handle the following conversion specifiers.
 
 
