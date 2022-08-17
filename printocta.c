@@ -8,16 +8,16 @@
 int printocta(char *format, va_list pa)
 {
 unsigned int num = va_arg(pa, unsigned int);
-unsigned int comia;
+unsigned int copia;
 char *octa;
 int i, i2 = 0, contame = 0;
 (void)format;
 
 if (num == 0)
 return (_putchar('0'));
-for (comia = num; comia != 0; i2++)
-}
-comia = comia / 8;
+for (copia = num; copia != 0; i2++)
+{
+copia = copia / 8;
 }
 octa = malloc(i2);
 if (!octa)

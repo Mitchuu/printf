@@ -9,11 +9,11 @@
 int printstr(char *format, va_list pa)
 {
 char *string = va_arg(pa, char *);
-int coon;
+int contador;
 (void)format;
 
 if (string == NULL)
 string = "(null)";
-coon = function(string);
-return (coon);
+contador = _puts(string);
+return (contador);
 }

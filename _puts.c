@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * funtion - prints a string
+ * _puts - prints a string
  * new line, to stdout.
  * @string: input string
  * Return: count of string.
  */
-int function(char *string)
+int _puts(char *string)
 {
 int contador = 0;
 

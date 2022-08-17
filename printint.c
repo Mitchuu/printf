@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _abs - calculates the absolute value.
  * @number: input.
@@ -32,6 +33,7 @@ count++;
 }
 return (count);
 }
+
 /**
  * integer - a function that prints an integer.
  * @number: input integer
@@ -50,6 +52,7 @@ unint = -number;
 }
 else
 unint = number;
+
 if (unint >= 10)
 integer(unint / 10);
 _putchar(unint % 10 + '0');

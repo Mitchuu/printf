@@ -8,7 +8,7 @@
 int _putchar(char ch)
 {
 static int contador;
-static int contador;
+static char buffer[1024];
 
 if (ch == -1)
 {

@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * function1 - selector for type of fun.
+ * driver - selector for type of fun.
  * @format: string.
  * Description: the function loops through the structs
  * selector[] ment of the struct.
  * Return: a pointer
+ * structype selector - Struct
  */
 
-int (*function1(char *format))(char *format, va_list)
+int (*driver(char *format))(char *format, va_list)
 {
 int i;
 
